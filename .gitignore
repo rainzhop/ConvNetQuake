@@ -18,3 +18,4 @@ convnetearthquakes
 .DS_Store
 notebooks
 cv*
+env2/

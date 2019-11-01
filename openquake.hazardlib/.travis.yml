@@ -1,0 +1,18 @@
+sudo: false
+
+language: python
+
+python:
+ - "3.5"
+
+addons:
+  apt:
+    packages:
+    - parallel
+
+install:
+  - pip install -r requirements-py35-linux64.txt
+  - python setup.py develop
+
+script:
+  - nosetests --with-doctest -v -a'!slow'

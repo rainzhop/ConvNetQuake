@@ -318,3 +318,8 @@ a set of templates
 `quakenet/models.py` contains the tensorflow code for the architecture of ConvNetQuake
 
 Tensorflow base model and layers can be found in `tflib` repository.
+
+8 - 附录
+-----
+
+2019.10.31 因为项目比较久远，在安装所需要的依赖包时遇到不少问题，做了记录，详见notes.txt
